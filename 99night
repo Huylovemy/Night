@@ -493,21 +493,21 @@ local function MobileFly()
 end
 
 local Window = WindUI:CreateWindow({
-    Title = "DMA",
+    Title = "Bear Hud",
     Icon = "user",
     IconThemed = true,
-    Author = "DMA Hub",
-    Folder = "DMA Hub",
+    Author = "Bear Hud",
+    Folder = "Bear Hub",
     Size = UDim2.fromOffset(500, 350),
     Transparent = true,
-    Theme = "Light",
+    Theme = "Dark",
     SideBarWidth = 200,
     ScrollBarEnabled = true,
 })
 
 Window:EditOpenButton({
     Title = "Bear hud",
-    Icon = "Bear",
+    Icon = "Night",
     CornerRadius = UDim.new(0, 6),
     StrokeThickness = 2,
     Color = ColorSequence.new(Color3.fromRGB(0, 0, 255), Color3.fromRGB(255, 255, 255)),
@@ -570,32 +570,6 @@ Tabs.Info:Button({
         game:GetService("StarterGui"):SetCore("SendNotification", {
             Title = "Tik Tok",
             Text = "copy link Tik Tok",
-            Duration = 3
-        })
-    end
-})
-
-Tabs.Info:Button({
-    Title = "CĂ¡i lá»“n DMM",
-    Desc = "CĂ¡i lá»“n Ä‘á»‹t máº¹ mĂ y",
-    Callback = function()
-        setclipboard("https://discord.gg/K28uQcCb")
-        game:GetService("StarterGui"):SetCore("SendNotification", {
-            Title = "TikTok",
-            Text = "copy link TikTok!",
-            Duration = 3
-        })
-    end
-})
-
-Tabs.Info:Button({
-    Title = "Discord",
-    Desc = "wait sever discord",
-    Callback = function()
-        setclipboard("wait sever!")
-        game:GetService("StarterGui"):SetCore("SendNotification", {
-            Title = "Discord",
-            Text = "copy link Discord!",
             Duration = 3
         })
     end
