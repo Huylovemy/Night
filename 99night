@@ -507,7 +507,7 @@ local Window = WindUI:CreateWindow({
 
 Window:EditOpenButton({
     Title = "Bear hud",
-    Icon = "Night",
+    Icon = "flame",
     CornerRadius = UDim.new(0, 6),
     StrokeThickness = 2,
     Color = ColorSequence.new(Color3.fromRGB(0, 0, 255), Color3.fromRGB(255, 255, 255)),
